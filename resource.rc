@@ -1,0 +1,21 @@
+#include <windows.h>
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"
+    BEGIN
+      VALUE "FileDescription", "XDH映像劫持器"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "ProductName", "XDH映像劫持器"
+      VALUE "ProductVersion", "1.0.0.0"
+      VALUE "CompanyName", "XDH"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x804, 1200
+  END
+END
